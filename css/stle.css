@@ -1,0 +1,36 @@
+/* utilizadas para todas las paginas */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vh;
+    height: 100vh;
+}
+
+header{
+    background-color: aqua;
+    height: 15vh;
+}
+
+main{
+    background-color: beige;
+    height: 75vh;
+}
+
+footer{
+    background-color: aqua;
+    height: 10vh;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration:none;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+color: #0d6efd;
+}
+
